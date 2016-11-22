@@ -12,7 +12,7 @@ class Courses extends Component {
             <li><a href="/courses/javascript">JavaScript</a></li>
           </ul>
         </div>
-        
+        { this.props.children }
       </div>
     );
   }
