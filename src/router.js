@@ -1,7 +1,7 @@
 // Libs
 
 import React from 'react';
-import {Router, Route, hashHistory } from 'react-router';
+import {Router, Route, browserHistory } from 'react-router';
 
 // CSS
 import './css/style.css';
@@ -15,7 +15,7 @@ import Teachers from './components/Teachers';
 
 // Routes
 const routes = (
-    <Router history={hashHistory}>
+    <Router history={browserHistory}>
         <Route component={App}>
             <Route path="/" component={Home} />
             <Route path="about" component={About} />
