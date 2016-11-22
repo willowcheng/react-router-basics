@@ -1,6 +1,6 @@
 // Libs
 import React from 'react';
-import {render} from 'react-dom';
+import { render } from 'react-dom';
 
 // CSS 
 import './css/style.css';
@@ -10,6 +10,16 @@ import routes from './router';
 
 // Render
 render(
-    routes,
-    document.getElementById('root')
+  routes, 
+  document.getElementById('root')
 );
+
+
+
+
+
+
+
+
+
+
